@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #4141f7;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.Quote-box {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  border: 2px solid #fff;
+  font-size: 25px;
+  padding: 30px;
+  width: 500px;
+  max-width: 100%;
+}
+.btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.btn-div a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn {
+  background-color: #008cff;
+  padding: 10px 10px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+.fa {
+  padding-right: 3px;
+}
+.Text-right {
+  display: block;
+  text-align: right;
+  opacity: 0.7;
+}
+.fa-quote-left {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
